@@ -7,6 +7,10 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+-- use 'github/copilot.vim'
+
+  use 'f-person/git-blame.nvim'
+
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.6',
 	  -- or                            , branch = '0.1.x',
